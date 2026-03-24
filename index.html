@@ -6,12 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Exercice 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Sézane</title>
 </head>
 
 <body>
-   
-        <!-- Barre de navigation -->
+
+    <!-- Barre de navigation -->
     <nav>
         <div class="nav-lien">
             <a href="./index.html">shop</a>
@@ -32,14 +42,17 @@
             <div class="burger"></div>
         </div>
         <!-- Logo  sézane -->
-        <div class="logo"><a href="./index.html"><img src="./img/logo-sezane.svg" alt=""></a>
+        <a href="./index.html">
+            <div class="logo"><img src="./img/logo-sezane.svg" alt="">
+        </a>
     </nav>
-    
+
     <!-- Image cliquable pour acheter vêtemens et accessoires -->
     <div class="grid-cards">
         <div class="cards">
-            <a href=""><img src="./img/aeqh3ctd6mxuxxolbtuq.jpg" alt=""><div class="texte-centre">Tops & T-shirts</div></a>
-            
+            <a href=""><img src="./img/aeqh3ctd6mxuxxolbtuq.jpg" alt=""></a>
+            <div class="texte-centre">Tops & T-shirts</div>
+
         </div>
         <div class="cards">
             <a href=""><img src="./img/aeqh3ctd6mxuxxolbtuq.jpg" alt=""></a>
@@ -86,14 +99,14 @@
     <div class="lookbook">
         <a href=""><img src="./img/background_dresses.avif" alt=""></a>
         <h1 class="collection">Collection printemps</h1>
-        <button class="button">Découvrez notre Lookbook</button>
+        <a href="./top30.html"><button class="button">Découvrez notre Lookbook</button></a>
     </div>
     <!-- La partie footer qui est en bas de page -->
     <footer>
         <!-- 1ere block du footer-->
-        <div class="question">
+        <div class="blockfooter">
             <h3>Une question ?</h3>
-            <h4>Faq</h4>
+            <h4 class="faq">Faq</h4>
             <span>Faire un retour ?</span>
             <span>Suivre ma commande</span>
             <h4>Nous contacter</h4>
@@ -103,7 +116,7 @@
             <span>Instagram : @sezane</span>
         </div>
         <!-- 2eme block du footer -->
-        <div class="apropos">
+        <div class="blockfooter">
             <h3>À propos</h3>
             <span>Qui sommes-nous ?</span>
             <span>Nos engagements</span>
@@ -114,23 +127,26 @@
             <span>Nous rejoindre</span>
         </div>
         <!-- 3eme block du footer -->
-        <div class="nousrencontrer">
+        <div class="blockfooter">
             <h3>Nous Rencontrer</h3>
             <span>Nos adresses</span>
         </div>
         <!-- 4eme block du footer -->
         <div class="recevoir">
             <h3>Recevoir nos invitations</h3>
-            <input type="email" placeholder="Votre adresse mail">
-            <button class="buttonOk" type="button">Ok</button>
+            <div class="adressemail">
+                <input type="email" placeholder="Votre adresse mail" class="inputemail">
+                <button class="buttonOk" type="button">Ok</button>
+            </div>
+
             <!-- Logo cliquable pour siteweb -->
             <div class="logofooter">
-                <img src="img/Logo facebook/iconmonstr-instagram-11.svg" alt="">
-                <img src="img/Logo facebook/x-twitter-brands-solid-full.svg" alt="">
-                <img src="img/Logo facebook/iconmonstr-facebook-1.svg" alt="">
-                <img src="img/Logo facebook/iconmonstr-pinterest-1.svg" alt="">
-                <img src="img/Logo facebook/tiktok-brands-solid-full.svg" alt="">
-                <img src="img/Logo facebook/youtube-brands-solid-full.svg" alt="">
+                <img src="img/Logo facebook/iconmonstr-instagram-11.svg" alt="" class="logo-svg">
+                <img src="img/Logo facebook/x-twitter-brands-solid-full.svg" alt="" class="logo-svg">
+                <img src="img/Logo facebook/iconmonstr-facebook-1.svg" alt="" class="logo-svg">
+                <img src="img/Logo facebook/iconmonstr-pinterest-1.svg" alt="" class="logo-svg">
+                <img src="img/Logo facebook/tiktok-brands-solid-full.svg" alt="" class="logo-svg">
+                <img src="img/Logo facebook/youtube-brands-solid-full.svg" alt="" class="logo-svg">
             </div>
         </div>
     </footer>

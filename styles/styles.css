@@ -1,0 +1,23 @@
+/* Permet de faire tenir les padding & border dans les largeurs des boites */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.menu-burger {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
